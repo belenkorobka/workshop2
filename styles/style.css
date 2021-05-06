@@ -1,0 +1,93 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Montserrar', sans-serif;
+}
+
+header {
+  padding: 30px;
+}
+
+header img {
+  width: 200px;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  border: none;
+  background-color: red;
+  padding: 12px 30px;
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
+}
+
+#quoteContainer {
+  margin: 20px 20px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  grid-gap: 20px;
+}
+
+#quoteContainer li {
+  background-color: #FFB200;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 300px;
+  padding: 20px;
+}
+
+#quoteContainer li h2 {
+  font-size: 20px;
+}
+
+#quoteContainer li button {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+#quoteCharacter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+#quoteCharacter div {
+  margin-left: 60px;
+}
+
+#quoteCharacter div h2 {
+  width: 50%;
+  font-size: 30px;
+  color: #FFB200;
+}
+/*# sourceMappingURL=style.css.map */
